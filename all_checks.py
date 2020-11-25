@@ -1,6 +1,8 @@
 #i/usr/bin/env python3
 import os
 import sys
+import socket
+
 
 def check_reboot():
 	"""Returns True if the computer has a pending reboot."""
